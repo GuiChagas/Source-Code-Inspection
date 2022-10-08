@@ -20,7 +20,9 @@ jobs:
     - name: Set up JDK
       uses: actions/setup-java@v3
       with:
-        java-version: 17
+        java-version: '17'
+        distribution: 'adopt'
+        architecture: x64
 
     - name: Packaging Jar
       id: packaging-jar
