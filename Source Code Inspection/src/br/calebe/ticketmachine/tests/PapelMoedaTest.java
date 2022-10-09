@@ -1,9 +1,8 @@
 package tests;
 
+import br.calebe.ticketmachine.core.PapelMoeda;
 import org.junit.Assert;
 import org.junit.Test;
-
-import core.PapelMoeda;
 
 
 public class PapelMoedaTest {

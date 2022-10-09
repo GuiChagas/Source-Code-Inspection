@@ -1,4 +1,4 @@
-package core;
+package br.calebe.ticketmachine.core;
 
 /**
  *
