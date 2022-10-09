@@ -31,7 +31,7 @@ class Troco {
             count = 0;        
             
             while (valorDesconto % 20 == 0) {
-                valorDesconto = valorDesconto-20;         
+                valorDesconto = valorDesconto-20;            
                 count++;
             }
             papeisMoeda[3] = new PapelMoeda(20, count);
@@ -53,14 +53,11 @@ class Troco {
             count = 0;
 
             while (valorDesconto % 2 == 0) {
+                valorDesconto = valorDesconto-2;
                 count++;
             }
-            papeisMoeda[0] = new PapelMoeda(2, count);
+            papeisMoeda[1] = new PapelMoeda(2, count);
         }
-<<<<<<< Updated upstream
-        papeisMoeda[0] = new PapelMoeda(2, count);
-=======
->>>>>>> Stashed changes
     }
 
     public Iterator<PapelMoeda> getIterator() {
